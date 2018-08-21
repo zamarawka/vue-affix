@@ -83,6 +83,7 @@ return /******/ (function(modules) { // webpackBootstrap
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.Affix = undefined;
 
 var _affix = __webpack_require__(1);
 
@@ -102,6 +103,7 @@ if (typeof window !== 'undefined' && window.Vue) {
   Plugin.install(window.Vue);
 }
 
+exports.Affix = _affix2.default;
 exports.default = Plugin;
 
 /***/ }),
