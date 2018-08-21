@@ -125,7 +125,7 @@ export default {
     },
 
     handleAffix() {
-      if (this.scrollAffix && this.affixHeight > window.innerHeight) {
+      if (this.scrollAffix && this.affixHeight + this.offset.top + this.offset.bottom > window.innerHeight) {
         this.setScrollingDirection();
 
         if (this.currentScrollAffix === 'scrollaffix-top') {
